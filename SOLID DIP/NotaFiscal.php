@@ -1,7 +1,10 @@
 <?php
     class NotaFiscal{
-        private $numero;
         private $imposto;
+
+        public function getImposto(){
+            return $this->imposto;
+        }
 
         public function setImposto($imposto){
             $this->imposto = $imposto;
